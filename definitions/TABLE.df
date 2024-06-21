@@ -1,0 +1,22 @@
+tables:
+  # Name of the table
+  students:
+    # BigQuery schema where the table resides
+    schema: inspired-skill-424806-e1.my_schema  # Replace with your BigQuery dataset ID
+
+    # Columns definition
+    columns:
+      id: INT64  # Primary key
+      first_name: STRING
+      last_name: STRING
+      mark: INT64
+      grade: STRING
+
+    # Sample data to insert (replace with 10 rows of your data)
+    data:
+      - id: 1
+        first_name: "John"
+        last_name: "Doe"
+        mark: 80
+        grade: "A"
+      - id: 2

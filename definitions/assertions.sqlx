@@ -1,0 +1,8 @@
+CREATE OR REPLACE VIEW inspired-skill-424806-e1.my_schema.unique_student_id AS
+SELECT * FROM inspired-skill-424806-e1.my_schema.students
+GROUP BY id, first_name, last_name, mark, grade
+HAVING COUNT(*) > 1;  
+
+CREATE OR REPLACE VIEW inspired-skill-424806-e1.my_schema.positive_id AS
+SELECT * FROM inspired-skill-424806-e1.my_schema.students
+WHERE id <= 0;      

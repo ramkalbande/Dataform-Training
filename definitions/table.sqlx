@@ -1,0 +1,22 @@
+-- Define the students table
+CREATE OR REPLACE TABLE `inspired-skill-424806-e1.my_schema.students` (
+  id INT64 ,
+  first_name STRING,
+  last_name STRING,
+  mark INT64,
+  grade STRING
+);
+
+-- Insert sample data (replace with 10 rows of your data)
+INSERT INTO `inspired-skill-424806-e1.my_schema.students` (id, first_name, last_name, mark, grade)
+VALUES
+   (1, 'Aarav', 'Patel', 85, 'A'),
+  (2, 'Aaradhya', 'Sharma', 90, 'A'),
+  (3, 'Vivaan', 'Gupta', 75, 'B'),
+  (4, 'Ananya', 'Singh', 80, 'B'),
+  (5, 'Advik', 'Kumar', 95, 'A'),
+  (6, 'Saanvi', 'Trivedi', 70, 'C'),
+  (7, 'Vihaan', 'Joshi', 65, 'C'),
+  (8, 'Diya', 'Shah', 55, 'D'),
+  (9, 'Reyansh', 'Verma', 60, 'D'),
+  (10, 'Aanya', 'Pandey', 50, 'F')

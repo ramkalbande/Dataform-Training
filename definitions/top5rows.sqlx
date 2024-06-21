@@ -1,0 +1,1 @@
+SELECT * FROM `inspired-skill-424806-e1.my_schema.students` ORDER BY mark DESC LIMIT 5

@@ -1,0 +1,4 @@
+ CREATE OR REPLACE TABLE `inspired-skill-424806-e1.my_schema.Students_per_grade` AS
+      SELECT grade, COUNT(*) AS student_count
+      FROM `inspired-skill-424806-e1.my_schema.students`
+      GROUP BY grade;

@@ -1,0 +1,14 @@
+-- Define the students table
+CREATE OR REPLACE TABLE `inspired-skill-424806-e1.my_schema.students` (
+  id INT64 PRIMARY KEY,
+  first_name STRING,
+  last_name STRING,
+  mark INT64,
+  grade STRING
+);
+
+-- Insert sample data (replace with 10 rows of your data)
+INSERT INTO `your_dataset_id.students` (id, first_name, last_name, mark, grade)
+VALUES
+  (1, "John", "Doe", 80, "A"),
+  (2, "Jane", "Smith", 75, "B"),
